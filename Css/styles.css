@@ -1,0 +1,74 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: 'Spartan', sans-serif;    
+}
+/* background */
+.top-background {
+position: absolute;
+z-index: -1;
+}
+
+.bottom-background {
+position: absolute;
+z-index: -1;
+bottom: 0px;
+right: 0px;
+}
+
+/* banner-title */
+
+#header-left {
+padding: 8% 15%;
+}
+
+
+.title {
+color: hsl(300, 43%, 22%);
+font-size: 3rem ;
+line-height: 1 ;
+width: 40%;
+margin-bottom: 10px;
+}
+
+.text {
+color: hsl(300, 43%, 22%);
+line-height: 1.5;
+width: 40%;
+}
+
+
+/* star-revieuws */
+
+.container-stars {
+display: grid;
+
+}
+
+
+
+
+.stars-items {
+ 
+background-color: rgb(211, 202, 211);
+border-radius: 15px 15px 15px 15px;
+width: 350px;   
+color:  hsl(300, 43%, 22%);;
+height: 55px;
+margin: 10px;
+padding: 8px;
+top: 100px;
+right: 100px;
+}
+
+
+
+.checked {
+color: rgba(236, 209, 59, 0.884);
+}
+
+
