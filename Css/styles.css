@@ -46,7 +46,9 @@ width: 40%;
 
 .container-stars {
 display: grid;
-
+position: absolute;
+margin-left: 40rem;
+margin-bottom: 30rem;
 }
 
 
@@ -70,5 +72,4 @@ right: 100px;
 .checked {
 color: rgba(236, 209, 59, 0.884);
 }
-
 
